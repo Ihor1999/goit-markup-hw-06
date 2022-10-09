@@ -713,6 +713,7 @@ background: rgba(0, 0, 0, 0.2);
 position: fixed;
 top: 0;
 left: 0;
+z-index:5;
 transition: opacity  250ms cubic-bezier(0.4, 0, 0.2, 1), visibility  250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .backdrop.is-hidden{
@@ -814,6 +815,9 @@ padding: 40px;
 }
 .checkbox:focus + .label::before{
     outline: 1px solid var(--blue-color);
+}
+.checkbox-site{
+    color: var(--blue-color);
 }
 .label::before{
     content: "";
